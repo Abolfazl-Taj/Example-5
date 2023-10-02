@@ -1,0 +1,31 @@
+@font-face {
+    font-family: popins;
+    src: url("../../Assets/Fonts/OFL.txt");
+}
+.navbar{
+    font-family: sans-serif;
+    @apply  w-full flex justify-between items-center fixed bg-[#767aac81] ;
+    box-shadow: 1px 1px 10px 1px #111;
+    z-index: 5;
+}
+.nav-left{
+ @apply mx-4 w-1/2 p-2 font-black text-[30px]  font-sans
+}
+.nav-left img{
+    @apply h-[50px]
+}
+.nav-right{
+  @apply   items-center mx-4 w-1/2 p-2
+}
+.nav-list{
+ @apply flex justify-around
+}
+.nav-item{
+ @apply font-bold  text-[20px] rounded p-1;
+ cursor: pointer;
+ transition: all 0.25s;
+}
+.nav-item:hover{
+    scale: 1.2;
+    box-shadow: 1px 1px 10px #1D1F34;
+}

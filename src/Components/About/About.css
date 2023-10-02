@@ -1,0 +1,23 @@
+.about-h{
+  @apply mt-[6rem] text-center text-[35px] bg-[#4451ff] p-1 font-extrabold font-mono text-[#767AAC]
+}
+.about-list{
+    @apply  mt-[3rem] p-2 flex justify-around bg-[#11121D]
+}
+.about-card{
+ @apply w-1/4 bg-[#767AAC] rounded flex justify-center items-center flex-col border border-[#4451ff] shadow-xl shadow-[#30335e] p-[0.25rem] mx-[0.25rem];
+ transition: all 0.75s;
+}
+.about-card img{
+  @apply my-[5px] rounded-full 
+}
+.about-header{
+ @apply font-extrabold text-[25px] 
+}
+.about-des{
+    @apply font-bold text-[18] font-sans my-[0.5rem] text-justify px-1
+}
+.about-card:hover{
+ @apply bg-[#30335e] text-[#4451ff];
+ scale: 0.92;
+}

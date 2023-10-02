@@ -1,0 +1,42 @@
+.footer{
+    @apply w-full h-[400px] text-[#A5A5A5];
+    background: url(../../Assets/Images/Landing.webp);
+    background-repeat: no-repeat;
+    background-color: #111;
+    background-blend-mode: darken;
+    background-size:  100% 400px;
+    background-blend-mode: color-dodge;
+}
+.top-foot{
+ @apply h-[80%] flex justify-around items-center  
+}
+.socials{
+ @apply  p-7 w-1/3 h-full mt-[1rem] rounded  text-center flex justify-center items-center ;
+ backdrop-filter: blur(2px) saturate(90%);
+ background-color: rgba(17, 18, 29, 0.24);
+ border: 1px solid rgba(255, 255, 255, 0.125);
+}
+.socials i{
+    @apply font-black mx-[1rem] text-[30px] text-[#34354f];
+    transition: all 0.5s; 
+}
+.socials i:hover{
+ scale: 1.2;
+}
+.footer img{
+ @apply  w-1/4
+}
+.contact{
+ @apply  p-5 w-1/3 h-full mt-[1rem] rounded  text-center flex justify-center flex-col items-center  text-[16px] ;
+ backdrop-filter: blur(2px) saturate(90%);
+ background-color: rgba(17, 18, 29, 0.24);
+ border: 1px solid rgba(255, 255, 255, 0.125);
+}
+.contact-card{
+    border: double 5px #34354f ;
+    @apply flex-col flex my-[0.25rem] font-medium  bg-[#11121D] rounded text-[#fff] p-5 
+}
+.down-footer{
+ @apply h-[20%] text-center font-black text-[35px] 
+}
+

@@ -1,0 +1,39 @@
+.team-list{
+    @apply mt-[8rem] flex justify-center items-center w-full bg-[#767AAC] p-3;
+    overflow: hidden;
+}
+.team-card{
+ @apply   flex justify-center  flex-col items-center rounded w-1/4 bg-[#30335e] text-[#767AAC] font-serif shadow-2xl shadow-[#111]  mx-[5px]
+}
+.team-card img{
+    @apply w-[380px] rounded mb-[0.75rem] rounded-b-full
+}
+.team-head{
+    @apply text-[25px] border border-[#767AAC] rounded p-1  
+}
+.job{
+    box-shadow:  1px 1px 5px 1px #111 ;
+ @apply my-[1rem] p-3  w-full text-center text-[18px] rounded
+}
+.team-des{
+ @apply  text-justify    p-8;
+ line-height: 2.25rem;
+ position: relative;
+ transition: all 0.5s;
+}
+.team-des::before{
+    position: absolute;
+    right: 0px;
+    @apply rounded-s-full w-full h-full   bg-[#11121D];
+}
+.team-des:hover ::before{
+    @apply w-full
+}
+
+.team-btn{
+ @apply mt-[1.5rem] w-full font-black font-sans text-[20px] bg-[#11121D] 
+}
+
+.team-list img{
+    filter: grayscale(100%);
+}

@@ -1,0 +1,21 @@
+body{
+    background-color: #30335e;
+    overflow-x: hidden;
+    @apply  text-[#1D1F34];
+}
+/* width */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #11121D; 
+    border-radius: 10px;
+  }

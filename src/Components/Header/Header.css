@@ -1,0 +1,25 @@
+/* #767AAC  11121D      */
+.header{
+    background-image: url("../../Assets/Images/Landing.webp");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    @apply relative flex justify-center  items-center flex-col
+}
+.header-head{
+    box-shadow: 1px 1px 10px 1px;
+    border: 1px solid #767AAC;
+ @apply my-[1rem] p-3 text-[45px] text-[#11121D]  font-black
+}
+.header-des{
+ @apply font-black text-[30px] bg-[#7477a83b] p-3 rounded my-3;
+ backdrop-filter: blur(16px) saturate(180%);
+}
+.header-btn{
+ border: #767AAC 1px solid;
+ box-shadow: inset 1px 1px 100px 1px #767AAC;
+ backdrop-filter: blur(16px) saturate(10%);
+ @apply text-[20px] font-serif font-black p-5 rounded  text-[#30335e]
+}

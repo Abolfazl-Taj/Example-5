@@ -1,0 +1,38 @@
+.price{
+    @apply bg-[#11121D] mt-[2rem]  p-8
+}
+.price-header{
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 1px -1px #ffffff;
+ @apply text-[#767AAC] text-center font-black text-[50px] mb-[25px]  
+}
+.price-des{
+    text-shadow: 1px -1px #ffffff;
+ @apply text-center font-extrabold text-[#767AAC] border-b-4 pb-4 rounded my-[0.5rem]  border-[#34354f] ;
+}
+.price-list{
+ @apply my-[1.5rem] p-8 w-full border-double border-8 bg-[#34354f] border-[#1D1E28] rounded text-[#A0A1B2] flex  ;
+}
+.price-card{
+  @apply bg-[#0C0D13] rounded w-1/3  flex justify-center items-center rounded-ss-full mx-[10px]     
+}
+.range{
+ @apply font-bold flex flex-col justify-center w-full items-center text-[20px] border-2 border-[#11121D]
+}
+.range-list{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+  @apply my-[0.5rem] flex flex-col justify-center items-center border-b border-[#A0A1B2]  w-full h-[59px]
+}
+.range button{
+    @apply bg-[#343434] p-2 my-[0.25rem] rounded font-black
+}
+.bigone{
+    @apply p-6 font-serif text-[43px] bg-[#111] rounded shadow shadow-[#000]
+}
+.midle{
+ @apply rounded-none rounded;
+ scale: 1.05;
+}
+.end{
+ @apply rounded-none rounded-se-full
+}

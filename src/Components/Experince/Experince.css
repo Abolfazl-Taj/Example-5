@@ -1,0 +1,14 @@
+.exp{
+    @apply mt-[2rem] flex justify-around items-center bg-[#11121D] p-2 border border-[#767AAC] shadow shadow-[#11121D]
+}
+.exp-items{
+ @apply mx-[25px] w-1/4 flex flex-col justify-center items-center bg-[#767AAC]  p-5 my-[1rem] rounded shadow border border-[#3b48ff] shadow-[#767AAC]
+}
+.exp-header{
+ @apply my-[0.25rem] font-sans text-[35px] font-black ;
+ text-shadow: 1px 1px #11121D
+}
+.exp-des{
+ @apply p-1 font-extrabold font-serif text-[20px];
+ text-shadow: 1px 1px #11121D; 
+}
